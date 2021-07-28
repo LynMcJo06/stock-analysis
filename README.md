@@ -2,7 +2,8 @@
 ## Introduction
 In this module, our client Steve is a recent graduate with a Finance degree.  Steve's parents are interested in green energy and want to start investing.  One company caught their attention:  DAQO New Energy Corp (DQ).  Steve's parents want to invest only in this stock, which has Steve concerned.  Steve has asked for our help to determine if DQ is a good investment.  
 ### Lesson 1
-We are going to start by analyzing a variety of clean energy stocks just in case DAQO turns out negatively.  We converted our Excel spreadsheet to a macro-enabled sheet.  To ensure that VBA was working properly, we created a simply macro that printed "Hello World!"  Woohoo!  I have created my first piece of code.  
+We are going to start by analyzing a variety of clean energy stocks just in case DAQO turns out negatively.  We converted our Excel spreadsheet to a macro-enabled sheet and learned several new terms.  To ensure that VBA was working properly, we created a simply macro that printed "Hello World!"  Woohoo!  I have created my first piece of code.  
+### Lesson 2
 
 We created a new worksheet titled "DQ Analysis" because the ticker symbol for DAQO is DQ.  We developed a macro to populate the new sheet.  
 We developed a macro to sum the amount of DQ stock traded in year 2018.  Steve's parents are convinced that a stock is a good investment if it is traded frequently.   
