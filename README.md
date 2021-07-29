@@ -10,5 +10,5 @@ For this lesson, we analyzed all stocks to get their total daily volume and 2018
 ### Lesson 4
 In this lesson, we formatted the All Stocks Analysis sheet to make it readable.  We created a new macro and added our own formatting as well as the coursework.  
 ### Lesson 5
-In Lesson 5, we learned how to make the worksheets interactive.  We first created buttons in the All Stocks Analysis and DQ Analysis sheets.  The buttons cleared the sheet and ran the analysis.  We then created an Input Box so the analysis could be performed on stocks for any year.  I tried it using both 2017 and 2018 and it worked wonderfully.  
+In Lesson 5, we learned how to make the worksheets interactive.  We first created buttons in the All Stocks Analysis and DQ Analysis sheets.  The buttons cleared the sheet and ran the analysis.  We then created an Input Box so the analysis could be performed on stocks for any year.  I tried it using both 2017 and 2018 and it worked wonderfully.  For the final exercise, we created code to calculate the elasped time it takes for the All Stocks Analysis code to run.  
 # MODULE 2 CHALLENGE
