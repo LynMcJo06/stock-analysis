@@ -9,3 +9,6 @@ In this lesson, we started analyzing the stock data.  We first added a new works
 For this lesson, we analyzed all stocks to get their total daily volume and 2018 yearly return.  We were able to reuse a lot of our code from the previous lesson by making minor changes.  After we ran this code block, only two of the eleven stocks had a positive yearly return:  ENPH and RUN, 82% and 84%, respectively.  
 ### Lesson 4
 In this lesson, we formatted the All Stocks Analysis sheet to make it readable.  We created a new macro and added our own formatting as well as the coursework.  
+### Lesson 5
+In Lesson 5, we learned how to make the worksheets interactive.  We first created buttons in the All Stocks Analysis and DQ Analysis sheets.  The buttons cleared the sheet and ran the analysis.  We then created an Input Box so the analysis could be performed on stocks for any year.  I tried it using both 2017 and 2018 and it worked wonderfully.  
+# MODULE 2 CHALLENGE
