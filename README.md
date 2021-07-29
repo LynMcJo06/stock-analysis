@@ -15,7 +15,7 @@ In Lesson 5, we learned how to make the worksheets interactive.  We first create
 ## Purpose
 The purpose of this challenge is to determine if the coursework code can be refactored for a much larger dataset such as the entire stock market. The goal was to loop through the data one time and collect the same information as the coursework.  
 ## Results
-I have to admit, it took a lot of debugging and rewriting to get the refactored code to work.  I initially made several errors, but through perserverance and several weeks of code writting, I was able to accomplish the challenge goals.  My refactored code did collect the same information at a faster runtime.  For the challenge, I added the output sheet formatting within the runtime variables, which makes the final runtimes even faster.  
+I have to admit, it took a lot of debugging and rewriting to get the refactored code to work.  I initially made several errors, but through perserverance and several weeks of code writting, I was able to accomplish the challenge goals.  My refactored code did collect the same information and at a faster runtime.  For the challenge, I added the output sheet formatting within the runtime variables, which makes the final runtimes even faster.  For the coursework, the output sheet formatting was completed in a separate subroutine; therefore, I had to create an additional button.  
 
 For 2017, the refactored code ran in 0.17 seconds.  
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/84352487/127578548-f429aeb5-5111-4057-9bab-7942f306982d.png)
