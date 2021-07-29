@@ -38,4 +38,3 @@ Some disadvantages of refactoring may include:
   - You may not have a test module to reference
 
 The coursework (original) code was simplier and faster to write even though it took slightly longer to execute the end results.  I found the refactoring portion extremely challenging as I did not understand arrays or loops.  This was an excellent exercise and I had to conduct a lot of research, trial and error, and rewriting.  
-  - 
