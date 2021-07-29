@@ -12,3 +12,5 @@ In this lesson, we formatted the All Stocks Analysis sheet to make it readable. 
 ### Lesson 5
 In Lesson 5, we learned how to make the worksheets interactive.  We first created buttons in the All Stocks Analysis and DQ Analysis sheets.  The buttons cleared the sheet and ran the analysis.  We then created an Input Box so the analysis could be performed on stocks for any year.  I tried it using both 2017 and 2018 and it worked wonderfully.  For the final exercise, we created code to calculate the elasped time it takes for the All Stocks Analysis code to run.  
 # MODULE 2 CHALLENGE
+## Purpose
+The purpose of this challenge is to determine if the coursework code can be refactored for a much larger dataset such as the entire stock market.  
