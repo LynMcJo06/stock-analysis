@@ -10,7 +10,32 @@ For this lesson, we analyzed all stocks to get their total daily volume and 2018
 ### Lesson 4
 In this lesson, we formatted the All Stocks Analysis sheet to make it readable.  We created a new macro and added our own formatting as well as the coursework.  
 ### Lesson 5
-In Lesson 5, we learned how to make the worksheets interactive.  We first created buttons in the All Stocks Analysis and DQ Analysis sheets.  The buttons cleared the sheet and ran the analysis.  We then created an Input Box so the analysis could be performed on stocks for any year.  I tried it using both 2017 and 2018 and it worked wonderfully.  For the final exercise, we created code to calculate the elasped time it takes for the All Stocks Analysis code to run.  
+In Lesson 5, we learned how to make the worksheets interactive.  We first created buttons in the All Stocks Analysis and DQ Analysis sheets.  The buttons cleared the sheet and ran the analysis.  We then created an Input Box so the analysis could be performed on stocks for any year.  I tried it using both 2017 and 2018 and it worked wonderfully.  For the final exercise, we created code to calculate the elasped time it takes for the All Stocks Analysis code to run.  For the 2018 datasheet, the runtime was 1.17 seconds.  The runtime for the 2017 datasheet was 1.04 seconds.  It should be noted that the formatting code was placed in a separate subroutine, which had to be executed after the initial analysis.  The formatting time was not included in the runtime for either dataset.  
 # MODULE 2 CHALLENGE
 ## Purpose
-The purpose of this challenge is to determine if the coursework code can be refactored for a much larger dataset such as the entire stock market.  
+The purpose of this challenge is to determine if the coursework code can be refactored for a much larger dataset such as the entire stock market. The goal was to loop through the data one time and collect the same information as the coursework.  
+## Results
+I have to admit, it took a lot of debugging and rewriting to get the refactored code to work.  I initially made several errors, but through perserverance and several weeks of code writting, I was able to accomplish the challenge goals.  My refactored code did collect the same information at a faster runtime.  For the challenge, I added the output sheet formatting within the runtime variables, which makes the final runtimes even faster.  
+
+For 2017, the refactored code ran in 0.17 seconds.  
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/84352487/127578548-f429aeb5-5111-4057-9bab-7942f306982d.png)
+
+For 2018, the refactored code ran in 0.16 seconds.  
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/84352487/127578654-be33036c-44f1-4371-bfe6-990721542399.png)
+
+## Summary
+Refactoring the code, even though it took me a long time, has the following advantages:
+  - It can be used in future analysis, with several different types of stocks, and for different years
+  - The code ususally runs faster--the code is more efficient
+  - Refactoring is great practice, especially for novice programmers
+  - The results are predictable, which is an easy way to confirm that the refactored code is running properly
+  - The refactored code is easier to understand
+  - It can support future advances in software development
+
+Some disadvantages of refactoring may include:
+  - It can be time consuming
+  - The coder may get lost or confused
+  - You may not have a test module to reference
+
+The coursework (original) code was simplier and faster to write even though it took slightly longer to execute the end results.  I found the refactoring portion extremely challenging as I did not understand arrays or loops.  This was an excellent exercise and I had to conduct a lot of research, trial and error, and rewriting.  
+  - 
